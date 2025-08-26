@@ -11,7 +11,7 @@ NULL
 #' 
 #' @export 
 #'
-#' @return a \code{\link{RasterLayer-class}} object
+#' @return a \code{\link[raster]{RasterLayer-class}} object
 #'
 #' @rdname raster
 #' @method raster RasterList

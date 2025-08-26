@@ -6,21 +6,21 @@
 #' for each cell of a raster map, it becomes challanging. Then \code{RasterList-package} makes these operations 
 #' easy to be implented with few lines of codes.
 #' 
-#' The \code{\link{RasterList-class}} is a S4 class that inherits the \code{\link{RasterLayer-class}} and it  an added slot called \code{list}. The \code{list} slot is a \code{\link{list}} object of so many elements how many are the cells of the inherited  \code{\link{RasterLayer-class}} class,
+#' The \code{\link{RasterList-class}} is a S4 class that inherits the \code{\link[raster]{RasterLayer-class}} and it  an added slot called \code{list}. The \code{list} slot is a \code{\link{list}} object of so many elements how many are the cells of the inherited  \code{\link[raster]{RasterLayer-class}} class,
 #' so that there is bijective corrensponce between a raster cell and a list element.
 #' The 	RasterList package provides three categories of important functions:
 #' 
 #' 
-#' {\code{\link{rasterList}}}{: it is the constructor of a  \code{\link{RasterList-class}} object from a generic \code{object}, it also transforms a \code{\link{RasterList-class}} into another one throungh a function argument. }
+#' {\code{\link{rasterList}}}: it is the constructor of a  \code{\link{RasterList-class}} object from a generic \code{object}, it also transforms a \code{\link{RasterList-class}} into another one throungh a function argument. 
 #' 
-#' {\code{\link{rasterListFun}}}{: it is a function that constructs  a  particular \code{\link{RasterList-class}} object in which the objects are \code{function}-type. }
+#' {\code{\link{rasterListFun}}}: it is a function that constructs  a  particular \code{\link{RasterList-class}} object in which the objects are \code{function}-type. 
 #'
-#' {\code{\link{RasterListApply}}}{: it is a function that allows to operate among two or more \code{\link{RasterList-class}} objects defined in the same spatial extent through a generic function \code{fun(x,y,...)} where \code{x} and \code{y} are each cell/element of two \code{\link{RasterList-class}} objects given as arguments \code{x} and \code{y} of \code{\link{RasterListApply}}.}
+#' {\code{\link{RasterListApply}}}: it is a function that allows to operate among two or more \code{\link{RasterList-class}} objects defined in the same spatial extent through a generic function \code{fun(x,y,...)} where \code{x} and \code{y} are each cell/element of two \code{\link{RasterList-class}} objects given as arguments \code{x} and \code{y} of \code{\link{RasterListApply}}.
 #' 
 #' 
 #' 
 #' 
-#' Some examples, concerning the fitting of a probability function for each cell of a stack (\code{\link{RasterStack-class}} object) of precipitation time-series or the estimation of soil water retention curve for each cell of a raster map,   are  shown throughout the package manual. 
+#' Some examples, concerning the fitting of a probability function for each cell of a stack (\code{\link[raster]{RasterStack-class}} object) of precipitation time-series or the estimation of soil water retention curve for each cell of a raster map,   are  shown throughout the package manual. 
 #' The precipitation example dataset in raster format were extracted by the CHIRPS database:
 #'  
 #' Funk, Chris, Pete Peterson, Martin Landsfeld, Diego Pedreros, James Verdin, 

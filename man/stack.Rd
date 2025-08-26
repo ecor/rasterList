@@ -3,7 +3,7 @@
 \name{stack,RasterList-method}
 \alias{stack,RasterList-method}
 \alias{stack}
-\title{Creates a \code{\link{RasterStack-class}}  object from a \code{\link{RasterList-class}}}
+\title{Creates a \code{\link[raster]{RasterStack-class}}  object from a \code{\link{RasterList-class}}}
 \usage{
 \S4method{stack}{RasterList}(x, ...)
 }
@@ -13,10 +13,10 @@
 \item{...}{further arguments for \code{\link{rasterList}}}
 }
 \value{
-a \code{\link{RasterStack-class}} object
+a \code{\link[raster]{RasterStack-class}} object
 }
 \description{
-The method transforms a \code{\link{RasterList-class}} into a \code{\link{RasterStack-class}} in case of the list elements are numeric vectors.
+The method transforms a \code{\link{RasterList-class}} into a \code{\link[raster]{RasterStack-class}} in case of the list elements are numeric vectors.
 }
 \examples{
 

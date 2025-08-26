@@ -30,7 +30,7 @@ rasterList(object = NULL, list = NULL, object.name = NA, ...)
 
 \item{object.name}{character string containing the name to assign to \code{object}.}
 
-\item{...}{further arguments for \code{\link{raster}}(generic) or \code{FUN} (\code{\link{RasterList-class}})}
+\item{...}{further arguments for \code{\link[raster]{raster}}(generic) or \code{FUN} (\code{\link{RasterList-class}})}
 
 \item{FUN}{function that can be used to apply to each element of the list in a \code{\link{RasterList-class}}}
 }

@@ -11,7 +11,7 @@ NULL
 #' @param list a \code{list} object to assign to the raster map. 
 #' @param object.name character string containing the name to assign to \code{object}.
 #' @param FUN function that can be used to apply to each element of the list in a \code{\link{RasterList-class}}
-#' @param ... further arguments for \code{\link{raster}}(generic) or \code{FUN} (\code{\link{RasterList-class}})
+#' @param ... further arguments for \code{\link[raster]{raster}}(generic) or \code{FUN} (\code{\link{RasterList-class}})
 #' 
 #' @rdname rasterList
 #' @export

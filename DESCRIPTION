@@ -9,14 +9,14 @@ Description: A S4 class has been created such that complex operations can be
     map algebra. Two environmental applications about frequency analysis of raster
     map of precipitation and creation of a raster map of soil water retention curves
     have been presented.
-Version: 0.5.20
-Date: 2023-08-17
+Version: 0.5.21
+Date: 2025-08-25
 Repository: CRAN
 URL: https://github.com/ecor/rasterList
 Depends: R(>= 3.0.1),raster,methods
 Suggests: lmom,testthat,sp,sf,soilwater,lubridate,ggplot2,gridExtra,knitcitations,leaflet,lmomPi,stringr,trend,knitr
 VignetteBuilder: knitr
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 NeedsCompilation: no
 Packaged: 2022-11-29 14:10:37 UTC; ecor
 Date/Publication: 2022-11-30 11:20:05 UTC

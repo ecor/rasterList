@@ -4,9 +4,9 @@
 ###############################################################################
 
 
-#' @title Creates a \code{\link{RasterStack-class}}  object from a \code{\link{RasterList-class}}
+#' @title Creates a \code{\link[raster]{RasterStack-class}}  object from a \code{\link{RasterList-class}}
 #' 
-#' @description The method transforms a \code{\link{RasterList-class}} into a \code{\link{RasterStack-class}} in case of the list elements are numeric vectors. 
+#' @description The method transforms a \code{\link{RasterList-class}} into a \code{\link[raster]{RasterStack-class}} in case of the list elements are numeric vectors. 
 #'
 #' 
 #' 
@@ -19,7 +19,7 @@
 #' @aliases stack 
 #' @export
 #' 
-#' @return a \code{\link{RasterStack-class}} object
+#' @return a \code{\link[raster]{RasterStack-class}} object
 #' 
 #' @importFrom raster ncell stack
 #' @importFrom methods as

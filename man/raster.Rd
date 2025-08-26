@@ -15,7 +15,7 @@
 \item{...}{further arguments}
 }
 \value{
-a \code{\link{RasterLayer-class}} object
+a \code{\link[raster]{RasterLayer-class}} object
 }
 \description{
 \code{Raster} methods for a \code{\link{RasterList-class}} object.
